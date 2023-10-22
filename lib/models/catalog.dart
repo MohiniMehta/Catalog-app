@@ -8,10 +8,8 @@ static List<Item> items=[Item(
     desc: "Apple Iphone 12th generation",
      price: 999, 
      color: "33505a",
-      image: "https://th.bing.com/th/id/OIP.1EkDbhtuD0YW-h1G3XowXAHaHa?pid=ImgDet&rs=1")];
-
-  // ignore: prefer_typing_uninitialized_variables
-  static var length;
+      image: "https://th.bing.com/th/id/OIP.1EkDbhtuD0YW-h1G3XowXAHaHa?pid=ImgDet&rs=1")
+      ];
 }
 
 
