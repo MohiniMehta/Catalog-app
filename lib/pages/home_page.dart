@@ -9,7 +9,7 @@ import "package:flutter_project_1/widgets/drawer.dart";
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('My App'),
+          title: const Text('My App',style: TextStyle(color: Colors.black),),
         ),
         body: const Center(
           child: Text("Welcome to the app made by Mohini"),
