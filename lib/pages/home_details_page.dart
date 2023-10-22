@@ -26,12 +26,14 @@ class HomeDetailPage extends StatelessWidget {
                       shape: MaterialStateProperty.all(const StadiumBorder(),)
                     ),
                   
-                     child: "Buy".text.make()
-                     ).wh(100, 50)
+                     child: "Add to cart".text.make()
+                     ).wh(120, 50)
                   ],
                 ).p32(),
       ),
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       backgroundColor: MyTheme.creamColor,
       body: SafeArea(
         bottom: false,
@@ -54,6 +56,9 @@ class HomeDetailPage extends StatelessWidget {
                       children: [
                         catalog.name.text.xl4.color(MyTheme.darkBluishColor).bold.make(),
                         catalog.desc.text.textStyle(context.captionStyle).xl.make(),
+                        10.heightBox,
+                        "Labore et dolores nonumy diam kasd diam. Sadipscing ut est magna ipsum dolor consetetur amet dolore consetetur. Voluptua invidunt ipsum sed amet justo, et sed consetetur et sanctus. Eos rebum sed diam diam est. Amet dolores sea et sed, ipsum sit magna stet sed est diam ipsum sadipscing. Sed takimata."
+                        .text.textStyle(context.captionStyle).make().p16(),
                       ],
                     ).py64(),
                   ),
